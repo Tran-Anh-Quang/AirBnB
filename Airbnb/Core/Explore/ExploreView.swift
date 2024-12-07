@@ -26,7 +26,7 @@ struct ExploreView: View {
                 }
                 .navigationDestination(for: Int.self) { listing in
                     ListingDetailsView()
-                        .navigationBarBackButtonHidden()
+                        .navigationBarHidden(true)
                 }
             }
         }
